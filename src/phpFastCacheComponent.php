@@ -7,7 +7,12 @@ use phpFastCache;
 use phpfastcache_driver;
 use tourze\Base\Component;
 
-class CacheComponent extends Component
+/**
+ * 基础缓存组件
+ *
+ * @package tourze\Cache
+ */
+class phpFastCacheComponent extends Component
 {
 
     /**

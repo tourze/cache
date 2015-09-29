@@ -3,14 +3,14 @@
 namespace tourze\Cache\Component;
 
 use tourze\Base\Component\CacheInterface;
-use tourze\Cache\CacheComponent;
+use tourze\Cache\phpFastCacheComponent;
 
 /**
  * 文件缓存
  *
  * @package tourze\Cache\Component
  */
-class FileCache extends CacheComponent implements CacheInterface
+class FileCache extends phpFastCacheComponent implements CacheInterface
 {
 
     /**
